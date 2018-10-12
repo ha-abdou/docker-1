@@ -1,0 +1,2 @@
+#https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers
+docker rm -f $(docker ps -aq)

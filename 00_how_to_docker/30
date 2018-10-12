@@ -1,0 +1,2 @@
+#https://docs.docker.com/engine/reference/commandline/service_scale/#description
+docker service scale marines=20 --detach=true

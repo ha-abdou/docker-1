@@ -1,0 +1,3 @@
+#https://docs.docker.com/storage/volumes/#choose-the--v-or---mount-flag
+#https://codereviewvideos.com/course/docker-tutorial-for-beginners/video/docker-mysql-tutorial
+docker run --name spawning-pool --restart on-failure -v hatchery:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -d mysql

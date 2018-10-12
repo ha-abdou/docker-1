@@ -1,0 +1,2 @@
+#https://docs.docker.com/engine/reference/commandline/logs/
+docker logs spawning-pool

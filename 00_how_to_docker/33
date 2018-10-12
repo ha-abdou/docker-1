@@ -1,0 +1,2 @@
+#https://stackoverflow.com/questions/38060279/deleting-all-docker-images-and-containers
+docker rmi -f $(docker images -aq)
