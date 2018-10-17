@@ -1,0 +1,3 @@
+#https://docs.docker.com/machine/reference/env/
+#list of env machine
+eval $(docker-machine env Char)
