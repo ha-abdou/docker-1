@@ -1,2 +1,1 @@
-#https://stackoverflow.com/questions/34051747/get-environment-variable-from-docker-container
 docker exec spawning-pool env

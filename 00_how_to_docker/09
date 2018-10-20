@@ -1,4 +1,4 @@
-apt-get update
-apt-get upgrade
-apt-get install git-core
-apt-get install clang
+apt -y update
+apt -y upgrade
+apt install -y git-core
+apt install -y gcc

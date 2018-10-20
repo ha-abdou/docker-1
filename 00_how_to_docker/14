@@ -1,3 +1,0 @@
-#https://hub.docker.com/_/wordpress/
-#https://docs.docker.com/network/links/#connect-using-network-port-mapping
-docker run -p 8080:80 --link spawning-pool:mysql --name lair -d wordpress

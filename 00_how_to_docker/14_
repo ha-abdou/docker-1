@@ -1,0 +1,4 @@
+docker run --name lair --link spawning-pool:mysql -p 8080:80  -d wordpress
+
+
+docker run --name lair --link spawning-pool -p 8080:80 -e WORDPRESS_DB_HOST=spawning-pool:3306 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=Kerrigan -e WORDPRESS_DB_NAME=zerglings -e WORDPRESS_TABLE_PREFIX=wp_ -d wordpress

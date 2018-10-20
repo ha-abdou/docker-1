@@ -1,2 +1,1 @@
-#https://docs.docker.com/machine/drivers/virtualbox/
 docker-machine create --driver=virtualbox Char

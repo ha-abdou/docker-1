@@ -1,2 +1,1 @@
-#https://docs.docker.com/engine/reference/commandline/pull/
 docker pull hello-world
