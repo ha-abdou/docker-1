@@ -1,2 +1,1 @@
-#https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
-docker swarm init --advertise-addr $(docker-machine ip Char):42
+docker swarm init --advertise-addr $(docker-machine ip Char)

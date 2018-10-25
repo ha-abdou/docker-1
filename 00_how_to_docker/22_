@@ -1,2 +1,0 @@
-#https://docs.docker.com/engine/reference/commandline/swarm_join/#extended-description
- docker swarm join --token 

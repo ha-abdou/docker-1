@@ -1,2 +1,1 @@
-#https://docs.docker.com/machine/reference/rm/
-docker-machine rm Aiur
+docker-machine rm -y Aiur

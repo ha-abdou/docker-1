@@ -2,3 +2,4 @@ apt -y update
 apt -y upgrade
 apt install -y git-core
 apt install -y gcc
+apt install -y build-essential
