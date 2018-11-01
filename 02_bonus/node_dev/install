@@ -1,0 +1,1 @@
+docker run --name name -v `pwd`:/app -p 80:80 -d images_name && docker exec name mkdir /modules && docker exec -w /modules name ln -s /app/package.json && docker exec -w /modules name npm install
